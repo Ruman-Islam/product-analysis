@@ -10,7 +10,7 @@ import NavigationBar from './components/NavigationBar/NavigationBar';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App container">
       <NavigationBar />
       <Routes>
         <Route path='/' element={<Homepage />} />

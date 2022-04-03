@@ -1,11 +1,10 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import CustomLink from '../CustomLink/CustomLink';
 import './NavigationBar.css';
 
 const NavigationBar = () => {
     return (
-        <header className='container'>
+        <header>
             <nav>
                 <ul className='navigations'>
                     <li><CustomLink to='/home'>HOME</CustomLink></li>
