@@ -6,10 +6,12 @@ import Blogs from './components/Blogs/Blogs';
 import About from './components/About/About';
 import NotFound from './components/NotFound/NotFound';
 import './App.css';
+import NavigationBar from './components/NavigationBar/NavigationBar';
 
 function App() {
   return (
     <div className="App">
+      <NavigationBar />
       <Routes>
         <Route path='/' element={<Homepage />} />
         <Route path='/home' element={<Homepage />} />

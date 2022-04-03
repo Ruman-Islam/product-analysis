@@ -1,0 +1,17 @@
+nav .navigations {
+    outline: 1px solid blue;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav .navigations li {
+    list-style: none;
+    margin-left: 10px;
+}
+nav .navigations li a{
+    text-decoration: none;
+    font-weight: 500;
+    padding: 0 10px 5px;
+    border-bottom: 1px solid lightslategray;
+}

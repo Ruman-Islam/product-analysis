@@ -1,16 +1,19 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import CustomLink from '../CustomLink/CustomLink';
 import './NavigationBar.css';
 
 const NavigationBar = () => {
     return (
-        <header>
+        <header className='container'>
             <nav>
-                <Link to='/home'>HOME</Link>
-                <Link to='/reviews'>REVIEWS</Link>
-                <Link to='/dashboard'>DASHBOARD</Link>
-                <Link to='/blogs'>BLOGS</Link>
-                <Link to='/about'>ABOUT</Link>
+                <ul className='navigations'>
+                    <li><CustomLink to='/home'>HOME</CustomLink></li>
+                    <li><CustomLink to='/reviews'>REVIEWS</CustomLink></li>
+                    <li><CustomLink to='/dashboard'>DASHBOARD</CustomLink></li>
+                    <li><CustomLink to='/blogs'>BLOGS</CustomLink></li>
+                    <li><CustomLink to='/about'>ABOUT</CustomLink></li>
+                </ul>
             </nav>
         </header>
     );
