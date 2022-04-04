@@ -21,7 +21,7 @@
 }
 
 .all-review-btn button {
-    padding: 10px 100px;
+    padding: 10px 50px;
     text-align: center;
     font-size: 20px;
     font-weight: 700;
@@ -30,6 +30,11 @@
     color: white;
     border-radius: 5px;
     cursor: pointer;
+}
+
+.all-review-btn button:hover {
+    transform: scale(1.2);
+    transition: all .5s;
 }
 
 @media screen and (max-width: 576px) {
