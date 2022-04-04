@@ -1,11 +1,11 @@
-.chart-container {
+.investment-revenue-container{
     display: flex;
     justify-content: space-between;
-    margin: 100px 0;
+    padding: 0 60px;
 }
 
 @media screen and (max-width: 576px) {
-    .chart-container {
+    .investment-revenue-container {
         flex-direction: column;
     }
 }

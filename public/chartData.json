@@ -1,38 +1,44 @@
 [
     {
-        "month": "Mar",
+        "month": "Jan",
         "investment": 100000,
         "sell": 241,
+        "sellPerDay": 12,
         "revenue": 10401
     },
     {
-        "month": "Apr",
+        "month": "Feb",
         "investment": 200000,
         "sell": 423,
+        "sellPerDay": 38,
         "revenue": 24500
     },
     {
-        "month": "May",
+        "month": "Mar",
         "investment": 500000,
         "sell": 726,
+        "sellPerDay": 46,
         "revenue": 67010
     },
     {
-        "month": "Jun",
+        "month": "April",
         "investment": 500000,
         "sell": 529,
+        "sellPerDay": 41,
         "revenue": 40405
     },
     {
-        "month": "Jul",
+        "month": "May",
         "investment": 600000,
         "sell": 601,
+        "sellPerDay": 43,
         "revenue": 50900
     },
     {
-        "month": "Aug",
+        "month": "Jun",
         "investment": 700000,
         "sell": 1000,
+        "sellPerDay":50,
         "revenue": 61000
     }
 ]

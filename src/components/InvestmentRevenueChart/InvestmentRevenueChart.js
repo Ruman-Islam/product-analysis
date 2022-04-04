@@ -10,7 +10,6 @@ const InvestmentRevenueChart = () => {
         <div>
             <h2 style={{ textAlign: 'center', color: '#1b98f5' }}>INVESTMENT VS REVENUE</h2>
             <BarChart
-                style={{ margin: '10px 10px' }}
                 width={600}
                 height={300}
                 data={chartData}

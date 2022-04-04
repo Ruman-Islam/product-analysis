@@ -1,4 +1,5 @@
-import React from 'react'; import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend } from 'recharts';
+import React from 'react';
+import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend } from 'recharts';
 import { useCharData } from '../../hooks/useChartData';
 
 const MonthSellChart = () => {
@@ -8,7 +9,6 @@ const MonthSellChart = () => {
         <div>
             <h2 style={{ textAlign: 'center', color: '#1b98f5' }}>MONTH WISE SELL</h2>
             <LineChart
-                style={{ margin: '10px 10px' }}
                 width={600}
                 height={300}
                 data={chartData}
