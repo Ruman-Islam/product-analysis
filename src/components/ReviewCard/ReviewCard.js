@@ -7,7 +7,7 @@ const ReviewCard = ({ review, review: { name, img, ratings, reviewText } }) => {
     return (
         <div className='review-card'>
             <div className='review-card-header'>
-                <h4>{name}</h4>
+                <h5>{name}</h5>
                 <FontAwesomeIcon className='start-icon' icon={faStar} />
                 <FontAwesomeIcon className='start-icon' icon={faStar} />
                 <FontAwesomeIcon className='start-icon' icon={faStar} />

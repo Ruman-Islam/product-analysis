@@ -8,11 +8,11 @@ nav {
 nav .logo-container {
     display: flex;
     align-items: center;
-    margin-top: 10px;
 }
 nav .logo-container img {
     width: 30px;
-    /* margin-right: 5px; */
+    margin-bottom: 10px;
+    margin-right: 5px;
 }
 nav .navigation {
     display: flex;

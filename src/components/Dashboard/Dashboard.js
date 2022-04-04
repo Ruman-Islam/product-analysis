@@ -1,8 +1,9 @@
 import React from 'react';
-import InvestmentRevenueChart from '../InvestmentRevenueChart/InvestmentRevenueChart';
+import IRbarChart from '../IRbarChart/IRbarChart';
 import MonthSellChart from '../MonthSellChart/MonthSellChart';
-import InvestmentRevenueCompare from '../InvestmentRevenueCompare/InvestmentRevenueCompare';
+import IRcompareChart from '../IRcompareChart/IRcompareChart';
 import './Dashboard.css';
+import IRpieChart from '../IRpieChart/IRpieChart';
 
 const Dashboard = () => {
 
@@ -11,13 +12,20 @@ const Dashboard = () => {
             <div className='chart-container'>
                 <div>
                     <MonthSellChart />
-                </div> <hr />
+                </div>
+                <hr />
                 <div>
-                    <InvestmentRevenueChart />
+                    <IRbarChart />
                 </div>
             </div>
-            <div style={{ fontSize: '12px' }}>
-                <InvestmentRevenueCompare />
+            <div className='chart-container'>
+                <div>
+                    <IRcompareChart />
+                </div>
+                <hr />
+                <div>
+                    <IRpieChart />
+                </div>
             </div>
         </div>
     );

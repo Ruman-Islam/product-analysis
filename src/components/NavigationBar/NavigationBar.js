@@ -7,7 +7,7 @@ const NavigationBar = () => {
     return (
         <nav className=''>
             <div className='logo-container'>
-                <img src={logo} alt="" /><h1>CAMERA WORLD</h1>
+                <img src={logo} alt="" /><h5>CAMERA WORLD</h5>
             </div>
             <ul className='navigation'>
                 <li><CustomLink to='/'>HOME</CustomLink></li>

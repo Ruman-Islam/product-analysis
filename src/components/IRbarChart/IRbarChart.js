@@ -1,9 +1,10 @@
 import React from 'react';
-import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend } from 'recharts';
+import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend } from 'recharts';
 import { useCharData } from '../../hooks/useChartData';
 import Spinner from '../Spinner/Spinner';
 
-const MonthSellChart = () => {
+
+const IRbarChart = () => {
     const [chartData, , isLoading] = useCharData();
 
     return (
@@ -12,8 +13,8 @@ const MonthSellChart = () => {
                 <Spinner />
                 :
                 <div>
-                    <h2 style={{ textAlign: 'center' }}>MONTH WISE SELL</h2>
-                    <LineChart
+                    <h2 style={{ textAlign: 'center' }}>INVESTMENT vs REVENUE</h2>
+                    <BarChart
                         width={600}
                         height={300}
                         data={chartData}
@@ -23,13 +24,13 @@ const MonthSellChart = () => {
                         <YAxis />
                         <Tooltip />
                         <Legend />
-                        <Line type="monotone" dataKey="sell" stroke="#1b98f5" activeDot={{ r: 8 }} />
-                        <Line type="monotone" dataKey="month" stroke="#82ca9d" />
-                    </LineChart>
+                        <Bar dataKey="investment" fill="#8884d8" />
+                        <Bar dataKey="revenue" fill="#82ca9d" />
+                    </BarChart>
                 </div>
             }
         </>
     );
 };
 
-export default MonthSellChart;
+export default IRbarChart;
