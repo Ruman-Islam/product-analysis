@@ -4,12 +4,11 @@ import Reviews from '../Reviews/Reviews';
 import './Homepage.css';
 
 const Homepage = () => {
-
     return (
-        <div>
+        <>
             <Banner /><br />
-            <Reviews isHomePage />
-        </div>
+            <Reviews isHome />
+        </>
     );
 };
 

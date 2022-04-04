@@ -7,13 +7,16 @@ import './Dashboard.css';
 const Dashboard = () => {
 
     return (
-        <div className='container'>
+        <div>
             <div className='chart-container'>
-                <MonthSellChart />
-                <hr />
-                <InvestmentRevenueChart />
+                <div>
+                    <MonthSellChart />
+                </div> <hr />
+                <div>
+                    <InvestmentRevenueChart />
+                </div>
             </div>
-            <div className='compare-chart'>
+            <div style={{ fontSize: '12px' }}>
                 <InvestmentRevenueCompare />
             </div>
         </div>

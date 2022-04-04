@@ -15,6 +15,7 @@ const About = () => {
                     <p> For any kind of query please mail us <span style={{ color: 'orange' }}>support@cameraworld.com</span> . Or contact with our <strong>Hotline number 0967-8666777 (Available 9.00 AM to 8.00 PM Everyday).</strong> </p >
                 </small>
             </div>
+            <br /><br /><br /><br /><br /><br /><br /><br />
         </div>
     );
 };

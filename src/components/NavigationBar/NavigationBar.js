@@ -5,7 +5,7 @@ import './NavigationBar.css';
 
 const NavigationBar = () => {
     return (
-        <nav className='container'>
+        <nav className=''>
             <div className='logo-container'>
                 <img src={logo} alt="" /><h1>CAMERA WORLD</h1>
             </div>

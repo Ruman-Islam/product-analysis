@@ -3,8 +3,6 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* border: 1px solid blue; */
-    padding: 0 50px !important;
 }
 
 nav .logo-container {
@@ -14,7 +12,7 @@ nav .logo-container {
 }
 nav .logo-container img {
     width: 30px;
-    margin-right: 5px;
+    /* margin-right: 5px; */
 }
 nav .navigation {
     display: flex;

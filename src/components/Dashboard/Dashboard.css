@@ -1,15 +1,13 @@
 .chart-container {
+    max-width: 2000px;
     display: flex;
-    justify-content: space-between;
-    margin: 100px 0;
+    justify-content: space-evenly;
+    margin: 50px auto;
+    font-size: 12px;
 }
 
 @media screen and (max-width: 576px) {
     .chart-container {
         flex-direction: column;
-        display: none;
-    }
-    .compare-chart {
-        display: none;
     }
 }
