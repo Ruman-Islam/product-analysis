@@ -1,0 +1,47 @@
+.review-card {
+    width: 300px;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px gray;
+}
+
+.review-card:hover {
+    transform: translateY(-10px);
+    transition: all .5s;
+}
+
+.review-card .review-card-header {
+    width: 100%;
+    background-color: #C1E0FF;
+    height: 100px;
+    padding: 20px;
+    border-radius: 10px 10px 0 0;
+    border-bottom: 2px solid var(--primary-color);
+}
+
+.review-card .customer-img-container {
+    position: absolute;
+    top: 50px;
+    right: 30px;
+}
+
+.review-card .customer-img-container img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 2px solid var(--primary-color);
+}
+
+.review-card  .review-content {
+    /* background-image: linear-gradient(180deg,#4AC0FE, #1174FF); */
+    background-color: aliceblue;
+    color: black;
+    padding: 70px 50px;
+    border-radius: 0 0 10px 10px;
+}
+
+.start-icon {
+    color: #FEBF00;
+    margin-right: 3px;
+    margin-top: 10px;
+}

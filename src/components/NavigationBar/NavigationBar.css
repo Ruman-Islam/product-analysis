@@ -4,7 +4,6 @@ nav .navigations {
     justify-content: center;
     align-items: center;
     padding: 5px 0;
-    outline: 1px solid blue;
 }
 nav .navigations li {
     list-style: none;
