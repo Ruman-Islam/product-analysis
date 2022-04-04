@@ -17,11 +17,11 @@
 
 .banner-left h1 {
     font-size: 4rem;
+    line-height: 1.3;
 }
 
 .banner-left p {
     color: lightslategray;
-    line-height: 2;
     width: 40rem;
 }
 

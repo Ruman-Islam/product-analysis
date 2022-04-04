@@ -9,7 +9,7 @@ const Reviews = ({ isHomePage }) => {
     const [reviews] = useReviews();
     return (
         <div className='review-container'>
-            <h1>What our customer say !</h1>
+            <h1>{isHomePage ? 'REVIEWS' : 'See, what our customer say!'}</h1>
             <div className='review-container-wrapper'>
                 {isHomePage ? (reviews.slice(0, 3).map(review => <ReviewCard key={review.id} review={review} />))
                     :

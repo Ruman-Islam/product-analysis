@@ -1,5 +1,6 @@
 .review-card {
     width: 300px;
+    height: 350px;
     position: relative;
     border-radius: 10px;
     box-shadow: 5px 5px 15px gray;
@@ -33,9 +34,9 @@
 }
 
 .review-card  .review-content {
-    background-color: aliceblue;
+    background-color: transparent;
     color: black;
-    padding: 70px 50px;
+    padding: 62px 50px;
     border-radius: 0 0 10px 10px;
 }
 

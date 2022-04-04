@@ -13,7 +13,7 @@ const Dashboard = () => {
                 <hr />
                 <InvestmentRevenueChart />
             </div>
-            <div>
+            <div className='compare-chart'>
                 <InvestmentRevenueCompare />
             </div>
         </div>

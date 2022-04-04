@@ -19,7 +19,7 @@ const ReviewCard = ({ review, review: { name, img, ratings, reviewText } }) => {
                 <img src={img} alt="" />
             </div>
             <div className='review-content'>
-                <p>{reviewText}</p>
+                <p>"{reviewText.length >= 100 ? reviewText.slice(0, 100) + '...' : reviewText}"</p>
             </div>
         </div>
     );

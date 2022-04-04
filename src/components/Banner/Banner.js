@@ -6,9 +6,8 @@ const Banner = () => {
     return (
         <div className='banner-container'>
             <div className='banner-left'>
-                <h1>Your next camera</h1>
-                <h1><span className='banner-left-second-title'>Your best camera</span></h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe fugit, mollitia nesciunt dolores laborum totam inventore molestiae repellendus labore ratione! Omnis quis.</p>
+                <h1>Grab your <br /><span className='banner-left-second-title'>next</span> CAMERA</h1>
+                <p>The X-T 10 is a brand of digital SLR designed and marketed by FUJIFILM Inc. That use FUJIFILM's nano technology since 2012. It replaced the SLR and tornado the world, announced in 2012.</p>
                 <button className='live-demo-btn'>Live Demo</button>
             </div>
             <div className='banner-right'>

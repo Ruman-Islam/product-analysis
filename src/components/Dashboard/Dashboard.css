@@ -7,5 +7,9 @@
 @media screen and (max-width: 576px) {
     .chart-container {
         flex-direction: column;
+        display: none;
+    }
+    .compare-chart {
+        display: none;
     }
 }
