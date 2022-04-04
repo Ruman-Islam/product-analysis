@@ -2,7 +2,7 @@
 
 #### Website: https://product-analysiss.netlify.app/
 
-## Featured Technology:
+## Featured Technology & Uses:
 
 - A home page with banner and review section
 - Dashboard for analyzing sells , revenue and more.
