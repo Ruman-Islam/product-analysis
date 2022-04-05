@@ -6,7 +6,7 @@ export const useReviews = () => {
 
     useEffect(() => {
         setIsLoading(true);
-        fetch('https://raw.githubusercontent.com/programming-hero-web-course-4/product-analysis-website-Ruman-Islam/main/public/reviews.json?token=GHSAT0AAAAAABQCBOL23KBMVYAZUPEMZ7TCYSMER5A')
+        fetch('reviews.json')
             .then((res) => res.json())
             .then(data => {
                 setReviews(data)
