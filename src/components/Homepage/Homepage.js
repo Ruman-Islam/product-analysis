@@ -9,7 +9,7 @@ const Homepage = () => {
         <>
             <NavigationBar />
             <Banner /><br />
-            <Reviews isHome />
+            <Reviews isHomepage />
         </>
     );
 };

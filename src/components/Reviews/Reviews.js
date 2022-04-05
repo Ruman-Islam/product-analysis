@@ -6,24 +6,24 @@ import ReviewCard from '../ReviewCard/ReviewCard';
 import Spinner from '../Spinner/Spinner';
 import './Reviews.css';
 
-const Reviews = ({ isHome }) => {
+const Reviews = ({ isHomepage }) => {
     const navigate = useNavigate();
     const [reviews, , isLoading] = useReviews();
     return (
         <>
-            {isHome ? '' : <NavigationBar />}
+            {isHomepage ? '' : <NavigationBar />}
             {isLoading ?
                 <Spinner />
                 :
                 <div className='review-container container'>
-                    <h1>{isHome ? <h1>CUSTOMER'<span style={{ color: '#1B98F5' }}>S</span> REVIEW</h1> : <h2>See, what our customer say!</h2>}</h1>
+                    <h1>{isHomepage ? <h1>CUSTOMER'<span style={{ color: '#1B98F5' }}>S</span> REVIEW</h1> : <h2>See, what our customer say!</h2>}</h1>
                     <div className='review-container-wrapper'>
-                        {isHome ? (reviews.slice(0, 3).map(review => <ReviewCard key={review.id} review={review} />))
+                        {isHomepage ? (reviews.slice(0, 3).map(review => <ReviewCard key={review.id} review={review} />))
                             :
                             (reviews.map(review => <ReviewCard key={review.id} review={review} />))}
                     </div>
                     <div
-                        style={{ textAlign: 'center', margin: '30px 0', display: isHome ? 'block' : 'none' }}>
+                        style={{ textAlign: 'center', margin: '30px 0', display: isHomepage ? 'block' : 'none' }}>
                         <button className='primary-button' onClick={() => navigate('/reviews')}>See All Reviews</button>
                     </div>
                 </div>
