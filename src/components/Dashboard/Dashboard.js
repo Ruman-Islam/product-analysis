@@ -1,7 +1,6 @@
 import React from 'react';
 import { BarChart, Bar, LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer, AreaChart, Area, PieChart, Pie } from 'recharts';
 import { useCharData } from '../../hooks/useChartData';
-import Footer from '../Footer/Footer';
 import Spinner from '../Spinner/Spinner';
 import './Dashboard.css';
 

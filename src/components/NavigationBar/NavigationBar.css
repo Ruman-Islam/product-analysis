@@ -37,9 +37,6 @@ nav .navigation li a{
         width: 100%;
         justify-content: center;
     }
-    nav .navigation li a {
-        /* margin-left: 10px; */
-    }
      nav .logo-container {
         display: none;
     }

@@ -21,9 +21,8 @@ const Reviews = ({ isHome }) => {
                             (reviews.map(review => <ReviewCard key={review.id} review={review} />))}
                     </div>
                     <div
-                        className='all-review-btn'
-                        style={{ display: isHome ? 'block' : 'none' }}>
-                        <button onClick={() => navigate('/reviews')}>See All Reviews</button>
+                        style={{ textAlign: 'center', margin: '30px 0', display: isHome ? 'block' : 'none' }}>
+                        <button className='primary-button' onClick={() => navigate('/reviews')}>See All Reviews</button>
                     </div>
                 </div>
             }

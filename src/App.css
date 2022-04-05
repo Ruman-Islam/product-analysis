@@ -7,11 +7,13 @@
 
 html {
   scroll-behavior: smooth;
+  height: 100vh;
 }
 
 body {
   font-family: 'Poppins', sans-serif;
 }
+
 
 img {
   width: 100%;
@@ -25,4 +27,13 @@ img {
 
 :root {
   --primary-color: #1b98f5;
+}
+
+.page-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.content-wrap {
+  flex: 1;
 }
