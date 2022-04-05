@@ -6,12 +6,12 @@ import Blogs from './components/Blogs/Blogs';
 import About from './components/About/About';
 import NotFound from './components/NotFound/NotFound';
 import NavigationBar from './components/NavigationBar/NavigationBar';
-import Footer from './components/Footer/Footer';
+// import Footer from './components/Footer/Footer';
 import './App.css';
 
 function App() {
   return (
-    <div className="App container">
+    <div className="App">
       <NavigationBar />
       <Routes>
         <Route path='/' element={<Homepage />} />
@@ -22,7 +22,7 @@ function App() {
         <Route path='/about' element={<About />} />
         <Route path='*' element={<NotFound />} />
       </Routes>
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }

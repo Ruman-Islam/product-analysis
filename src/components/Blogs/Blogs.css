@@ -1,7 +1,9 @@
 .blog-container {
     max-width: 1200px;
-    margin: 100px auto 0;
+    margin: 100px auto 71px;
     color: lightslategray;
+    padding: 0 10px;
+    text-align: justify;
 }
 
 h2 {

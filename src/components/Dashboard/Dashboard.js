@@ -1,6 +1,7 @@
 import React from 'react';
 import { BarChart, Bar, LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer, AreaChart, Area, PieChart, Pie } from 'recharts';
 import { useCharData } from '../../hooks/useChartData';
+import Footer from '../Footer/Footer';
 import Spinner from '../Spinner/Spinner';
 import './Dashboard.css';
 
@@ -11,7 +12,7 @@ const Dashboard = () => {
             {isLoading ?
                 <Spinner />
                 :
-                <div className="rechart-container">
+                <div className="rechart-container container">
                     <div>
                         <h2 style={{ textAlign: 'center', marginTop: '60px' }}>MONTH WISE SELL</h2>
                         <ResponsiveContainer

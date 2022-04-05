@@ -1,7 +1,8 @@
 .rechart-container {
    display: grid;
    grid-template-columns: repeat(2, 1fr);
-    font-size: 12px;
+   font-size: 12px;
+   margin-bottom: 55px;
 }
 
 @media screen and (max-width: 576px) {
