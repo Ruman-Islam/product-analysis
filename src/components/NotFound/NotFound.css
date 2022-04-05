@@ -6,6 +6,13 @@
     align-items: center;
     position: relative;
 }
+
+.not-found-container h1{
+    font-size: 70px;
+}
+.not-found-container h6{
+    font-size: 20px;
+}
 .error-background {
     flex: 1;
 }
@@ -39,5 +46,8 @@
         flex-direction: column;
         justify-content: center;
         text-align: center;
+    }
+    .not-found-container h1{
+        font-size: 30px;
     }
 }

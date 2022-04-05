@@ -19,7 +19,7 @@ const NotFound = () => {
             </div>
             <div className='error-content'>
                 <h1>AWWW...DON’T CRY.</h1>
-                <p>It's just a 404 Error! </p>
+                <h6>It's just a 404 Error! </h6>
                 <p>What you’re looking for may have been misplaced in Long Term Memory.</p>
             </div>
         </div>
