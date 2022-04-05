@@ -23,13 +23,13 @@
 
 
 .error-back-button button {
+    width: 100%;
     border: 0;
     background-color: lightslategray;
-    padding: 10px 50px;
+    padding: 10px 0;
     color: white;
     font-size: 20px;
     font-weight: 700;
-    border-radius: 2px;
     position: absolute;
     left: 0;
     right: 0;
@@ -46,8 +46,18 @@
         flex-direction: column;
         justify-content: center;
         text-align: center;
+        
+    }
+    .not-found-container img {
+        margin-top: 50px;
+       width: 300px;
+        
     }
     .not-found-container h1{
         font-size: 30px;
     }
+    .error-back-button {
+        margin-bottom: -50px;
+    }
+    
 }
