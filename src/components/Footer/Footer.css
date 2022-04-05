@@ -4,7 +4,7 @@ footer {
     color: white;
     align-items: center;
     justify-content: center;
-    background-color: var(--primary-color);
+    background-color: #111111;
     padding: 50px 0;
   }
   footer a {
@@ -13,6 +13,16 @@ footer {
     font-size: 18px;
     margin-left: 10px;
   }
+
+  .social-icon-container {
+    display: flex;
+  }
+  
+  .social-icon-container .icon{
+    margin: 0 5px;
+    font-size: 25px;
+  }
+  
 
   @media (max-width: 576px) {
     .footer {
