@@ -1,9 +1,11 @@
 import React from 'react';
+import NavigationBar from '../NavigationBar/NavigationBar';
 import './Blogs.css';
 
 const Blogs = () => {
     return (
         <>
+            <NavigationBar />
             <div className='blog-container'>
                 <h2>Context API:</h2>
                 Context API helps passing data to child component without pops drilling. It is like mobile network. By wrapping context API component any data can be passed through Context API to the child components or file only. It creates a context and export to share file to another file. It provides two components Provider and Consumer wrapped by Context API component. Last, in the Provider component any dynamic or static data can pass through value. and catch from child component.

@@ -1,7 +1,43 @@
 .not-found-container {
-    background: url('../../images/mYKbf3DSinvWnEzmHkEnCE-970-80.jpg');
     min-height: 100vh;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-bottom: 5px;
+    min-width: 99vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.error-background {
+    flex: 1;
+}
+
+.error-content {
+    flex: 2;
+}
+
+
+.error-back-button button {
+    border: 0;
+    background-color: lightslategray;
+    padding: 10px 50px;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 2px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.not-found-container button:hover {
+    background-color: rgba(119, 136, 153, 0.473);
+}
+
+
+@media screen and (max-width: 576px) {
+    .not-found-container {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
 }

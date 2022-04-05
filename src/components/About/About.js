@@ -1,9 +1,11 @@
 import React from 'react';
+import NavigationBar from '../NavigationBar/NavigationBar';
 import './About.css';
 
 const About = () => {
     return (
         <>
+            <NavigationBar />
             <div className='about-container container'>
                 <h1 style={{ textAlign: 'center', marginBottom: '50px' }}>ABOUT US</h1>
                 <div style={{ width: '100%' }}>

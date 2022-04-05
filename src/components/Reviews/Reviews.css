@@ -1,5 +1,5 @@
 .review-container {
-    margin-bottom: 50px;
+    margin-bottom: 100px;
 }
 .review-container h1 {
     text-align: center;
@@ -9,12 +9,11 @@
 .review-container-wrapper {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 40px 0;
+    gap: 10px 30px;
     justify-content: center;
     align-content: center;
     justify-items: center;
     align-items: center;
-    max-width: 1024px;
     margin: 0 auto;
 }
 

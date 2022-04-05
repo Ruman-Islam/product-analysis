@@ -1,6 +1,7 @@
 import React from 'react';
 import { BarChart, Bar, LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer, AreaChart, Area, PieChart, Pie } from 'recharts';
 import { useCharData } from '../../hooks/useChartData';
+import NavigationBar from '../NavigationBar/NavigationBar';
 import Spinner from '../Spinner/Spinner';
 import './Dashboard.css';
 
@@ -8,6 +9,7 @@ const Dashboard = () => {
     const [chartData, , isLoading] = useCharData();
     return (
         <>
+            <NavigationBar />
             {isLoading ?
                 <Spinner />
                 :
