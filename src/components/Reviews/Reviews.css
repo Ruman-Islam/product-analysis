@@ -9,12 +9,11 @@
 .review-container-wrapper {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 10px 30px;
+    gap: 10px 0;
     justify-content: center;
     align-content: center;
     justify-items: center;
     align-items: center;
-    margin: 0 auto;
 }
 
 .all-review-btn {
@@ -34,14 +33,16 @@
     cursor: pointer;
 }
 
-.all-review-btn button:hover {
-    transform: scale(1.2);
-    transition: all .5s;
-}
+/* @media screen and (max-width: 1400px) {
+    .review-container-wrapper {
+        grid-template-columns: 1fr 1fr !important;
+    }
+} */
 
 @media screen and (max-width: 576px) {
     .review-container-wrapper {
         grid-template-columns: repeat(1, 1fr);
+        gap: 10px 5px;
     }
     .review-container h1 {
         font-size: 20px;
