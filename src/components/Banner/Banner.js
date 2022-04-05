@@ -1,5 +1,5 @@
 import React from 'react';
-import mainCamera from '../../images/main-camera.png';
+import mainCamera from '../../images/photography-clipart-camera-logo-pencil-color-6.png';
 import './Banner.css';
 
 const Banner = () => {
